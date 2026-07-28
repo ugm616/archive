@@ -1,4 +1,4 @@
-const PASSWORD_HASH = "8f4a7c9e3b2d1f0a8c7e5d4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4";
+const PASSWORD_HASH = "109e66a22099f51a651245912e8f72e924fd95728f4c40872788aa97787c582f";
 
 async function hashPassword(password) {
   const encoder = new TextEncoder();
