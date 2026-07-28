@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Archive</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <main class="auth-page">
+    <div class="auth-card">
+      <div class="auth-logo" id="auth-logo">
+        <img src="assets/images/logos/logo-light.svg" alt="" class="logo-img">
+      </div>
+      <form id="auth-form" class="auth-form" novalidate>
+        <label for="password" class="visually-hidden">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" autocomplete="current-password" required aria-describedby="auth-error">
+        <div id="auth-error" class="auth-error" aria-live="polite"></div>
+        <button type="submit" class="btn btn-primary">Access Archive</button>
+      </form>
+    </div>
+  </main>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>

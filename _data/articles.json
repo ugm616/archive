@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "stone-cold-steve-austin",
+    "title": "Stone Cold Steve Austin",
+    "description": "American retired professional wrestler, actor, and television host. Key figure in the Attitude Era.",
+    "tags": ["wrestler", "wwe", "attitude-era"],
+    "image": "assets/images/stone-cold.jpg",
+    "aspectRatio": "portrait",
+    "contentPath": "pages/stone-cold-steve-austin.html"
+  },
+  {
+    "slug": "the-rock",
+    "title": "The Rock",
+    "description": "American actor and retired professional wrestler. One of the greatest wrestlers of all time.",
+    "tags": ["wrestler", "wwe", "hollywood"],
+    "image": "assets/images/the-rock.jpg",
+    "aspectRatio": "landscape",
+    "contentPath": "pages/the-rock.html"
+  },
+  {
+    "slug": "triple-h",
+    "title": "Triple H",
+    "description": "American business executive and retired professional wrestler. Current Chief Content Officer of WWE.",
+    "tags": ["wrestler", "wwe", "executive"],
+    "image": "assets/images/triple-h.jpg",
+    "aspectRatio": "square",
+    "contentPath": "pages/triple-h.html"
+  }
+]
